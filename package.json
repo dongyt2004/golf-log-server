@@ -19,9 +19,9 @@
   "author": "董玉涛",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dongyt/golf-log-server/issues"
+    "url": "https://github.com/dongyt2004/golf-log-server/issues"
   },
-  "homepage": "https://github.com/dongyt/golf-log-server#readme",
+  "homepage": "https://github.com/dongyt2004/golf-log-server#readme",
   "devDependencies": {
     "parcel-bundler": "1.12.4"
   },
