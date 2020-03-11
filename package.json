@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "高尔夫球场系统日志服务器",
   "main": "logserver.js",
+  "scripts": {
+    "start": "node logserver.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dongyt/golf-log-server.git"
+    "url": "git+https://github.com/dongyt2004/golf-log-server.git"
   },
   "keywords": [
     "高尔夫",
