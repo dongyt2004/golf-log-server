@@ -4,7 +4,7 @@
   "description": "高尔夫球场系统日志服务器",
   "main": "logserver.js",
   "scripts": {
-    "prestart": "sudo chown -R $USER:$(id -gn $USER) /.config",
+    "prestart": "chown -R $USER:$(id -gn $USER) ~/.config",
     "start": "node logserver.js"
   },
   "repository": {
