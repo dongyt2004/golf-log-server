@@ -9,7 +9,7 @@ if (cluster.isMaster) {
             file: {type: 'dateFile', filename: 'log/server.log', daysToKeep: 7, keepFileExt: true,
                 layout: {
                     type: 'pattern',
-                    pattern: '%d{yyyy-MM-dd hh:mm:ss} [%p] %h %X{real_name} - %m'
+                    pattern: '%d{yyyy-MM-dd hh:mm:ss} [%p] %X{real_name} - %m'
                 }
             },
             server: {type: 'tcp-server', host: '0.0.0.0', port: 5000}
