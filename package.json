@@ -26,6 +26,6 @@
     "parcel-bundler": "1.12.4"
   },
   "dependencies": {
-    "log4js": "6.1.1"
+    "log4js": "6.4.0"
   }
 }
